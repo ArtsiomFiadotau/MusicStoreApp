@@ -15,15 +15,15 @@ import java.io.IOException;
 public class StartController {
 
     @FXML
-    private Button toMainButton; // Изменено на правильное имя
+    private Button toMainButton;
     @FXML
-    private Button toAuthorButton; // Изменено на правильное имя
+    private Button toAuthorButton;
     @FXML
-    private Button toFeedbackButton; // Изменено на правильное имя
+    private Button toFeedbackButton;
     @FXML
-    private Button toStartButton; // Изменено на правильное имя
+    private Button toStartButton;
     @FXML
-    private ImageView imageView; // Это изображение, если его хотите использовать
+    private ImageView imageView;
 
     @FXML
     private void handleToMain(ActionEvent event) {
