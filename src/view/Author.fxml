@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="689.0" prefWidth="879.0" style="-fx-background-color: #141414;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AuthorController">
+   <AnchorPane prefHeight="690.0" prefWidth="275.0" style="-fx-background-color: #000;">
+      <children>
+          <Button id="toMainButton" layoutX="22.0" layoutY="313.0" onAction="#handleToMain" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #141414;" text="МАГАЗИН" textFill="WHITE">
+            <font>
+               <Font name="Arial Bold" size="27.0" />
+            </font>
+         </Button>
+         <Button id="toAuthorButton" layoutX="22.0" layoutY="379.0" onAction="#handleToAuthor" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #141414;" text="ОБ АВТОРЕ" textFill="WHITE">
+            <font>
+               <Font name="Arial Bold" size="27.0" />
+            </font>
+         </Button>
+         <Button id="toFeedbackButton" layoutX="22.0" layoutY="448.0" onAction="#handleToFeedback" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #141414;" text="КОНТАКТЫ" textFill="WHITE">
+            <font>
+               <Font name="Arial Bold" size="27.0" />
+            </font>
+         </Button>
+         <AnchorPane layoutX="18.0" layoutY="14.0" prefHeight="187.0" prefWidth="231.0">
+            <children>
+               <ImageView fitHeight="187.0" fitWidth="324.0" layoutX="8.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../resources/images/mainogo.jpg" />
+                  </image>
+               </ImageView>
+            </children>
+         </AnchorPane>
+         <Button id="toStartButton" layoutX="22.0" layoutY="244.0" onAction="#handleToStart" prefHeight="50.0" prefWidth="231.0" style="-fx-background-color: #141414;" text="ГЛАВНАЯ" textFill="WHITE">
+            <font>
+               <Font name="Arial Bold" size="27.0" />
+            </font>
+         </Button>
+      </children>
+   </AnchorPane>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="418.0" layoutY="66.0" prefHeight="17.0" prefWidth="248.0" text="Об авторе" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font name="Arial Bold" size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="331.0" layoutY="126.0" text="Приложение разработал студент заочного отделения ВГМУ" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="428.0" layoutY="213.0" text="Федотов Артём Михайлович" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="480.0" layoutY="167.0" text="группа ИТс-12" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+</AnchorPane>
